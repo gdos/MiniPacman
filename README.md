@@ -1,3 +1,5 @@
+![screenshot](https://github.com/fastrgv/MiniPacman/blob/master/cpac.jpg)
+
 # MiniPacman
 MiniPac is a kid friendly ascii character version of Pacman that plays in a commandline terminal.
 
