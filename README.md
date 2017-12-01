@@ -1,6 +1,11 @@
 # MiniPacman
 MiniPac is a kid friendly ascii character version of Pacman that plays in a commandline terminal.
 
+Here is the download link:
+
+https://github.com/fastrgv/MiniPacman/releases/download/v1.0.0/pac2dec17.tar.gz
+
+
 
 # MiniPacman
 
