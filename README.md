@@ -9,7 +9,7 @@ https://github.com/fastrgv/MiniPacman/releases/download/v1.0.0/pac3dec17.tar.gz
 
 
 
-[[https://github.com/fastrgv/MiniPacman/releases/download/v1.0.0/pac3dec17.tar.gz]]
+[https://github.com/fastrgv/MiniPacman/releases/download/v1.0.0/pac3dec17.tar.gz]
 
 
 
