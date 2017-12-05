@@ -14,6 +14,14 @@ https://github.com/fastrgv/MiniPacman/releases/download/v1.0.0/pac3dec17.tar.gz
 
 ## What's new:
 
+**ver 1.0.1 -- 6dec17**
+
+* Added missing DLLs required under Windows;
+* Added first optional command line parameter 0 ... 9 allows user to control speed of play, where 0 => slow, 5 => default, 9 => fast.
+* Added second optional command line parameter 0 ... 9 allows user to control speed of Ghosts, where 0 => stopped, 2 => default, 9 => fast.
+* Thus, a game with default settings has either two parameters "5 2", or no parameters.
+
+
 **ver 1.0.0 -- 3dec17**
 * fixed arrow keys in Windows.
 * original release.
@@ -39,6 +47,13 @@ Unzip wherever, make your terminal at least 60 chars wide by 40 lines, then simp
 OSX:		pacman_osx
 Linux:	pacman_gnu
 Windows:	pacman.exe
+
+Each executable can now be given 2 integer command line parameters:
+	* Game Speed 0..9;  0=slow, 5=default=medium, 9=fast;
+	* Ghost Speed 0..9;  0=stopped, 2=default=easy, 9=fast
+
+So on windows, the command "pacman.exe 5 2" gives default settings, same as no parameters.
+
 
 ===============================================================
 
