@@ -49,6 +49,7 @@ Linux:	pacman_gnu
 Windows:	pacman.exe
 
 Each executable can now be given 2 integer command line parameters:
+
 	* Game Speed 0..9;  0=slow, 5=default=medium, 9=fast;
 	* Ghost Speed 0..9;  0=stopped, 2=default=easy, 9=fast
 
