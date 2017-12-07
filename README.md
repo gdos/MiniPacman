@@ -14,6 +14,9 @@ https://github.com/fastrgv/MiniPacman/releases/download/v1.0.0/pac6dec17.tar.gz
 
 ## What's new:
 
+Video:  https://github.com/fastrgv/MiniPacman/blob/master/pacman25.mkv
+
+
 **ver 1.0.1 -- 6dec17**
 
 * Added missing DLLs required under Windows;
