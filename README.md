@@ -17,6 +17,14 @@ https://github.com/fastrgv/MiniPacman/releases/download/v1.0.0/pac6dec17.tar.gz
 Video:  https://github.com/fastrgv/MiniPacman/blob/master/pman25.mkv
 
 
+**ver 1.0.2 -- 9dec17**
+
+* The script hipri.bat for Windows was added to fix terminal-freezes by opening a high priority command window for console games.
+* On Windows, Minipac now attempts to automatically set real-time priority, which should make the script hpri.bat unnecessary.
+* Also added scripts gnupac.sh (linux) & osxpac.sh (OSX) to run at high priority using "nice", if necessary.
+
+
+
 **ver 1.0.1 -- 6dec17**
 
 * Added missing DLLs required under Windows;
@@ -45,18 +53,41 @@ Includes executables and source code.
 
 ===============================================================
 ## Setup & Running:
-Unzip wherever, make your terminal at least 60 chars wide by 40 lines, then simply type the executable name to begin.
+* Unzip wherever;  
+
+* Resize your terminal to at least 57 chars wide by 36 lines;
+
+* You might want to enlarge the Font so that the window becomes physically larger.  
+
+* type the executable name to begin.
 
 OSX:		pacman_osx
 Linux:	pacman_gnu
 Windows:	pacman.exe
 
-Each executable can now be given 2 integer command line parameters:
-
+Each executable can now be given 2 optional integer command line parameters:
 	* Game Speed 0..9;  0=slow, 5=default=medium, 9=fast;
 	* Ghost Speed 0..9;  0=stopped, 2=default=easy, 9=fast
 
 So on windows, the command "pacman.exe 5 2" gives default settings, same as no parameters.
+
+NOTE:  Windows users can use the script "hipri.bat" to open a realtime, high-priority window in which to run pacman.  (It seems that some Windows hardware causes terminal freezes at normal priority.)  However, the latest version of pacman automatically attempts to set a high priority for itself in Windows.
+
+For Linux/OSX users, you can use the "nice" command to be a bit less nice and give each terminal game the highest real time priority.  
+
+For example, to run at high priority on OSX type:
+
+"nice --adjustment=-20 pacman_osx".  
+
+or simply use the scripts gnupac.sh or osxpac.sh:
+
+osxpac.sh  (on OSX)
+
+or
+
+gnupac.sh  (on Linux)
+
+
 
 
 ===============================================================
