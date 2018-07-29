@@ -5,7 +5,7 @@ MiniPac is a kid friendly ascii character version of Pacman that plays in a comm
 
 Here is the download link:
 
-https://github.com/fastrgv/MiniPacman/releases/download/v1.0.2/pac9dec.tar.gz
+https://github.com/fastrgv/MiniPacman/releases/download/v1.0.3/pac30jul18.tar.gz
 
 
 
