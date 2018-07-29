@@ -17,6 +17,14 @@ https://github.com/fastrgv/MiniPacman/releases/download/v1.0.2/pac9dec.tar.gz
 Video:  https://github.com/fastrgv/MiniPacman/blob/master/pman25.mkv
 
 
+**ver 1.0.3 -- 30jul18**
+
+* Corrected faulty script for OSX [osxpac.sh];
+* Improved Windows setup;
+* Updated to SFML v2.5.0
+* Updated to AdaCore 2018.
+
+
 **ver 1.0.2 -- 9dec17**
 
 * The script hipri.bat for Windows was added to fix terminal-freezes by opening a high priority command window for console games.
