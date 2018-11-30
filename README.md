@@ -5,7 +5,7 @@ MiniPac is a kid friendly ascii character version of Pacman that plays in a comm
 
 Here is the download link:
 
-https://github.com/fastrgv/MiniPacman/releases/download/v1.0.3/mpac30jul18.tar.gz
+https://github.com/fastrgv/MiniPacman/releases/download/v1.0.3/pa31nov18.tar.gz
 
 
 
@@ -23,6 +23,7 @@ Video:  https://github.com/fastrgv/MiniPacman/blob/master/pman25.mkv
 * Improved Windows setup;
 * Updated to SFML v2.5.0
 * Updated to AdaCore 2018.
+* For Windows, replaced realtime priority with high priority (30nov18)
 
 
 **ver 1.0.2 -- 9dec17**
