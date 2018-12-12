@@ -62,7 +62,10 @@ Includes executables and source code.
 
 ===============================================================
 ## Setup & Running:
-* Unzip wherever;  
+* Unzip wherever;  Windows users please also read:
+
+https://github.com/fastrgv/MiniPacman/blob/master/windows-setup.txt
+
 
 * Resize your terminal to at least 57 chars wide by 36 lines;
 
