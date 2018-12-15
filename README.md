@@ -7,6 +7,9 @@ Here is the download link:
 
 https://github.com/fastrgv/MiniPacman/releases/download/v1.0.3/pa31nov18.tar.gz
 
+and on Windows you can use:
+https://github.com/fastrgv/MiniPacman/releases/download/v1.0.3/pa31nov18tar.zip
+
 
 
 
