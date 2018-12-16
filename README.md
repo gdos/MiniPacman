@@ -65,7 +65,13 @@ Includes executables and source code.
 
 ===============================================================
 ## Setup & Running:
-* Unzip wherever;  Windows users please also read:
+
+Unzip the archive.  On Windows, 7z [www.7-zip.org] works well for this;  but so does the intrinsic command "tar -xf [filename].tar.gz", which extracts everything into the current directory.
+
+Windows users may see some error messages (that may be ignored) pertaining to directory links.  Directory links are needed only on OSX & Linux.
+
+
+Windows users please also read:
 
 https://github.com/fastrgv/MiniPacman/blob/master/windows-setup.txt
 
